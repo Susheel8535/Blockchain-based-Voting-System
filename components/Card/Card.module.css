@@ -1,0 +1,62 @@
+
+.card{
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: repeate(3, 1fr);
+    gap: 2rem;
+}
+
+.card_box{
+    background-color: #231e39;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.3.5);
+    color: #b3b8cd;
+    text-align: center;
+    overflow: hidden;
+    border-radius: .5rem;
+
+}
+
+.card_info{
+    line-height: 1;
+    padding: 0 1.5rem;
+}
+
+.card_voter{
+    color: #9a02ac;
+
+}
+
+.total{
+    background-color: #9a02ac;
+    padding: .5rem;
+    border-radius: 900;
+    letter-spacing: 1;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+.car_button{
+    margine-button: 2rem;
+    padding: .5rem;
+}
+
+.card_button button{
+    background-color: #9a02ac;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.35);
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+    border-radius: .2rem;
+    cursor: pointer;
+
+}
+
+
+@media screen and (max-width: 35em){
+    .card{
+        grid-template-columns: 1fr;
+    }
+}
