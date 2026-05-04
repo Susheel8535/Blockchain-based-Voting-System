@@ -77,7 +77,7 @@ useEffect(()=>{
               <p>
                 Blockchain voting orgnization, provide ethereum blockchian ecosystem 
               </p>
-              <p className={Style.sideInfo_para}>Contract candidate </p>
+              <p className={Style.sideInfo_para}>Contract candidate List</p>
               </div>
               <div className={Style.card}>
                 {candidateArray.map((el, i)=>(

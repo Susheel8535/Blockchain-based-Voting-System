@@ -1,8 +1,12 @@
-// SPDX-License-Identifier: UNLICENSED
-pragma solidity ^0.8.9;
 
+pragma solidity ^0.8.9;
 import "@openzeppelin/contracts/utils/Counters.sol";
 import "hardhat/console.sol";
+
+//pragma solidity ^0.8.9;
+
+// import "@openzeppelin/contracts/utils/Counters.sol";
+// import "hardhat/console.sol";
 
 contract Create {
 
@@ -12,6 +16,7 @@ contract Create {
     Counters.Counter public _candidateId;
 
     address public votingOrganizer;
+
      
 // CANDIDATE FOR VOTING
 

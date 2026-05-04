@@ -225,9 +225,7 @@ export const VotingProvider = ({ children }) => {
 
     // /// ------------------Get Voter DAta 
   const getAllVoterData = async () => {
-   try{
-
-   
+   try{ 
   
     const web3Modal = new Web3Modal();
     const connection = await web3Modal.connect();
