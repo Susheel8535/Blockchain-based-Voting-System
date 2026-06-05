@@ -28,6 +28,7 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "hardhat": "^2.28.6",
+    "minimatch": "^9.0.9",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
